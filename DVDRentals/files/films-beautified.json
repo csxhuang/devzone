@@ -1,0 +1,64 @@
+{
+    "_id": 1,
+    "Actors": [
+      {
+        "First name": "PENELOPE",
+        "Last name": "GUINESS",
+        "actorId": 1
+      },
+      {
+        "First name": "CHRISTIAN",
+        "Last name": "GABLE",
+        "actorId": 10
+      },
+      {
+        "First name": "LUCILLE",
+        "Last name": "TRACY",
+        "actorId": 20
+      },
+      {
+        "First name": "SANDRA",
+        "Last name": "PECK",
+        "actorId": 30
+      },
+      {
+        "First name": "JOHNNY",
+        "Last name": "CAGE",
+        "actorId": 40
+      },
+      {
+        "First name": "MENA",
+        "Last name": "TEMPLE",
+        "actorId": 53
+      },
+      {
+        "First name": "WARREN",
+        "Last name": "NOLTE",
+        "actorId": 108
+      },
+      {
+        "First name": "OPRAH",
+        "Last name": "KILMER",
+        "actorId": 162
+      },
+      {
+        "First name": "ROCK",
+        "Last name": "DUKAKIS",
+        "actorId": 188
+      },
+      {
+        "First name": "MARY",
+        "Last name": "KEITEL",
+        "actorId": 198
+      }
+    ],
+    "Category": "Documentary",
+    "Description": "A Epic Drama of a Feminist And a Mad Scientist who must Battle a Teacher in The Canadian Rockies",
+    "Length": "86",
+    "Rating": "PG",
+    "Rental Duration": "6",
+    "Replacement Cost": "20.99",
+    "Special Features": "Deleted Scenes,Behind the Scenes",
+    "Title": "ACADEMY DINOSAUR"
+  }
+  

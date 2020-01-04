@@ -1,0 +1,178 @@
+{
+	"info": {
+		"_postman_id": "81f65397-78b0-4104-8eb6-9018552e02c9",
+		"name": "jSonar",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "1-Get a list of the customers",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/api/allcustomers",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"allcustomers"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "2-Get customer by phone",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/api/customerphone/245477603573",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"customerphone",
+						"245477603573"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "3-Get customer by name",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/api/customername/MARSHA/DOUGLAS",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"customername",
+						"MARSHA",
+						"DOUGLAS"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "4-Get film rented list by name",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/api/rentalbyname/MARSHA/DOUGLAS",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"rentalbyname",
+						"MARSHA",
+						"DOUGLAS"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "5-Get film rented list by phone",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/api/rentalbyphone/245477603573",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"rentalbyphone",
+						"245477603573"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "6-Get a list of all the available films",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/api/allfilms",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"allfilms"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "7-Get a list of customers by film name",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/api/customersbyfilm/COLOR PHILADELPHIA",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"customersbyfilm",
+						"COLOR PHILADELPHIA"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "8-Get film detail by film name",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/api/filmdetailbyname/COLOR PHILADELPHIA",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"filmdetailbyname",
+						"COLOR PHILADELPHIA"
+					]
+				}
+			},
+			"response": []
+		}
+	],
+	"protocolProfileBehavior": {}
+}

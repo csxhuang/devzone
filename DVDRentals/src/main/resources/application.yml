@@ -1,0 +1,13 @@
+server:
+  error:
+    whitelabel:
+      enabled: false
+spring:
+  data:
+    mongodb:
+      # host: localhost
+      # port: 27017
+      # database: DVDRentals
+      uri: "mongodb://localhost:27017/DVDRentals"
+
+    
